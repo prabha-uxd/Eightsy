@@ -1,0 +1,458 @@
+.container {
+    max-width: 1170px;
+}
+body {
+    background: #000;
+    font-family: "Fjalla One", sans-serif;
+}
+p {
+    font-family: "Heebo", sans-serif;
+    color: #959595;
+}
+.cap{
+    text-transform: capitalize;
+}
+.section_video {
+    position: relative;
+    color: #fff;
+    height: 800px;
+}
+.section_video img {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+}
+.section_video h1 {
+    font-size: 64px;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.section_video span {
+    color: #fcb900;
+}
+.section_video p {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.awesome {
+    padding-top: 340px;
+}
+.button_main {
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 40px 12px 40px;
+    background-color: #ffbb35;
+    transition: ease 0.3s;
+}
+.button_main:hover {
+    color: #ffbb35;
+    background-color: #fff;
+    transform: translateY(-8px);
+}
+.btn2 {
+    border-radius: 50%;
+    width: 60px;
+    /* padding: 15px 45px 15px 45px; */
+    background-color: #fff;
+    color: #ffbb35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play {
+    background-color: #ffbb35;
+    width: 14px;
+    margin-left: 5px;
+    height: 20px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+.btn2:hover {
+    background-color: #ffbb35;
+}
+.btn2:hover .play {
+    background-color: #fff;
+}
+.watch {
+    transition: ease 0.3s;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.watch:hover {
+    color: #ffbb35;
+    transform: translateY(-8px);
+}
+.Affordable {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    padding-top: 30px;
+    height: 270px;
+}
+.width-30 {
+    width: 30%;
+}
+.fa-location-dot,
+.fa-clock {
+    font-size: 35px;
+    color: #fcb900;
+}
+.Regular {
+    width: 45%;
+    position: absolute;
+    top: -60px;
+    right: 0px;
+}
+.Pricing {
+    position: relative;
+    padding: 40px 30px 40px 40px;
+    background-color: #0c0c0c;
+}
+.Pricing a {
+    color: #fcb900;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.Pricing a:hover {
+    color: #fff;
+    /* text-decoration: none; */
+}
+.Pricing h2 {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    font-size: 56px;
+    color: #2c2c2c;
+    font-weight: 600;
+}
+.Competitions {
+    position: relative;
+    padding: 40px 30px 40px 40px;
+    background-color: #ffbb35;
+}
+.Competitions a {
+    color: #000;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.Competitions h4 {
+    color: #000;
+}
+.Competitions a:hover {
+    color: #fff;
+}
+.Competitions h2 {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    font-size: 56px;
+    color: #2c2c2c;
+    font-weight: 600;
+}
+.about_Images {
+    position: relative;
+}
+.about_Images_1 {
+    width: 500px;
+    position: absolute;
+}
+.testimonials_Images_1{
+    width: 500px;
+    position: absolute;
+
+}
+.about_Images_2 {
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    top: 75px;
+    border: 20px solid #000;
+}
+.aboutUS {
+    width: 85px;
+    margin-left: 25px;
+    height: 3px;
+    background-color: #ffbb35;
+}
+.bg-dark-1 {
+    background-color: #0c0c0c;
+}
+.fa-medal,
+.fa-certificate,
+.fa-users,
+.fa-check-double,
+.fa-teamspeak {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 48px;
+    color: #ffbb35;
+}
+.fa-audio-description {
+    font-size: 48px;
+    color: #ffbb35;
+}
+.color-main {
+    color: #fcb900;
+}
+.profile-1 {
+    border-radius: 50%;
+    width: 70px;
+}
+.COURSES_1 {
+    position: relative;
+}
+.COURSES_1 img {
+    position: relative;
+    opacity: 0.3;
+}
+.COURSES_1 section {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.PROFESSIONAL {
+    position: relative;
+    background-image: url(https://templatekit.jegtheme.com/eightsy/wp-content/uploads/sites/224/2021/12/billiard-table-with-green-surface-and-balls-in-the-billiard-club-pool-game-1.jpg);
+    background-position: 0px 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px 160px 0px;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.75;
+}
+.gitInfo {
+    color: #fff;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.gitInfo:hover {
+    color: #fcb900;
+}
+.loading {
+    background-color: #0c0c0c;
+    position: relative;
+    top: -90px;
+}
+.MEMBER {
+    position: relative;
+    width: 100%;
+    background-image: url(https://templatekit.jegtheme.com/eightsy/wp-content/uploads/sites/224/2021/12/billiard-table-with-green-surface-and-balls-in-the-billiard-club-pool-game-4.jpg);
+    background-position: 0px 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px 160px 0px;
+}
+
+
+.💪 img{
+    width: 100%;
+}
+.d{
+    margin-top: -290px;
+}
+
+.f{
+    margin-top: -290px;
+}
+.BLOG a{
+    text-decoration: none;
+    color: #fcb900;
+}
+.BLOG img{
+    width: 100%;
+}
+.hover-main{
+    color: #fff;
+    cursor: pointer;
+
+}
+.hover-main:hover{
+    color: #fcb900;
+
+}
+.card_desc{
+    position: relative;
+    width: 330px;
+    padding: 30px 25px 60px 30px;
+}
+.carousel_12{
+    position: relative;
+    left: -38px;
+
+}
+.card_desc i{
+    position: absolute;
+    color: #fcb900;
+    font-size: 55px;
+    
+    right: 26px;
+    top: 0px;
+}
+.card_desc .body{
+    margin-top: -40px;
+    width: 330px;
+    z-index: 1;
+}
+.test-body{
+    border-radius: 50%;
+    width: 70px; 
+    position: relative;
+}
+.pro{
+    position: relative;
+    background-color: #0c0c0c;
+}
+.basic{
+    position: relative;
+}
+.discount{
+    background-color: #2c2c2c;
+    width: 100px;
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    text-align: center;
+}
+.price{
+    color: #fcb900;
+    letter-spacing: -3px;
+    font-size: 64px;
+    font-weight: 600;
+}
+.box{
+    min-width: 300px;
+    max-width: 350px;
+}
+.header{
+    background-color: #000 !important;
+}
+.nav-link{
+    padding: 10PX 20PX !important;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #ffbb35 !important;
+}
+.nav-link:active{
+    color: #ffbb35 !important;
+}
+.navbar-light .navbar-brandP{
+    color: #fff !important;
+}
+
+/* @media (min-width: 992px){}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: end;
+    flex-basis: auto;
+} */
+
+
+@media (max-width:600px){
+    .awesome {
+        padding-top: 130px;
+    }
+    .awesome br{
+        display: none;
+    }
+    p{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .section_video p {
+        text-align: center;
+    }
+    .d{
+        margin-top: 0px;
+    }
+    
+    .f{
+        margin-top: 0px;
+    }
+    .about_Images_1 {
+        width: 300px;
+        position: static;
+    }
+    .testimonials_Images_1{
+        width: 100%;
+    }
+    .about_Images_2 {
+        position: absolute;
+        width: 220px;
+        right: 28px;
+        top: 55px;
+        border: 15px solid #000;
+    }
+    .COURSES_1 section {
+        bottom: 10px;
+        left: 10px;
+    }
+    .display_none{
+        display: none !important;
+    }
+    
+    .section_video {
+        position: relative;
+        color: #fff;
+        height: 460px;
+    }    
+    .section_video h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .button_main {
+        margin: auto;
+        padding: 10px 35px 10px 35px;
+    }
+    .Affordable{
+        height: auto;
+    }
+    .Regular {
+        width: 100%;
+        top: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .Pricing h2 {
+        bottom: 5px;
+    }
+    .Competitions h2 {
+        bottom: 5px;
+    }
+    .width-30{
+        width: 100%;
+    }
+    .carousel_12 {
+        position: relative;
+        left: 0px;
+    }
+    .card_desc i {
+        
+        font-size: 40px;
+        right: 10px;
+        top: 10px;
+    }
+    .card_desc{
+        width: 100%;
+    }
+    .card_desc .body{
+        width: 100%;
+    }
+    .MEMBER {
+
+        padding: 0px 0px 19px 0px;
+    }
+}
