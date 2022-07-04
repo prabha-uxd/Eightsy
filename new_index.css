@@ -6,7 +6,11 @@ body {
     background: #000;
     font-family: "Fjalla One", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 p {
+    
     font-family: "Heebo", sans-serif;
     color: #959595;
 }
@@ -195,7 +199,8 @@ p {
     font-size: 48px;
     color: #ffbb35;
 }
-.fa-audio-description {
+
+.add_on i {
     font-size: 48px;
     color: #ffbb35;
 }
