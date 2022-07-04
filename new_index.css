@@ -1,6 +1,7 @@
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
 }
+
 body {
     background: #000;
     font-family: "Fjalla One", sans-serif;
@@ -8,6 +9,12 @@ body {
 p {
     font-family: "Heebo", sans-serif;
     color: #959595;
+}
+.logo{
+    width: 80%;
+}
+.footer_logo{
+    width: 80%;
 }
 .cap{
     text-transform: capitalize;
@@ -256,6 +263,9 @@ p {
 
 .💪 img{
     width: 100%;
+}
+.💪 img:hover{
+    opacity: 0.5;
 }
 .d{
     margin-top: -290px;
