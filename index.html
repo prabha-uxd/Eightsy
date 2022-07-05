@@ -46,10 +46,8 @@
                         <div class="navbar-nav align-items-center">
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                             <a class="nav-link" href="#abour_us">ABOUT US</a>
-                            <a class="nav-link" href="#">SERVICES</a>
-                            <a class="nav-link" href="#COURSES_1">COURSES</a>
-                            <a class="nav-link" href="#BLOG">BLOG</a>
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="#MEMBERSHIP">MEMBERSHIP</a>
+                            
                         </div>
                         <a class="nav-link " href="#">
                             <button class="button_main"><i class="fa-solid fa-phone me-2"></i>CONTACT US</button>
@@ -74,10 +72,10 @@
                 </p>
                 <div class="d-flex mt-2">
                     <button class="button_main">REGISTER NOW</button>
-                    <div class="d-flex ps-4 ms-3 display_none">
+                    <!-- <div class="d-flex ps-4 ms-3 display_none">
                         <a class="btn2" href=""><i class="play"></i></a>
                         <p class="watch">WATCH INTRO</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -107,14 +105,14 @@
                     <h4>Full Sized Tables </h4>
                     <p class="mb-4" class="mb-0">We offer you a large snooker hall with various tables with their
                         different bettings</p>
-                    <a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    <!-- <a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a> -->
                     <h2>01</h2>
                 </div>
                 <div class="Competitions">
                     <h4>Friendly Environment</h4>
                     <p class="mb-4 mb-0 text-dark w">With all our pool tables maintained, we also proud to offer you a
                         friendly environment that will make your day. </p>
-                    <a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    <!-- <a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a> -->
                     <h2>02</h2>
                 </div>
             </div>
@@ -188,10 +186,10 @@
                             <h5 class="mb-0 pt-3 ps-md-4">Rodney Knapp</h5>
                             <p class="mb-0 ps-md-4">CEO Eightsy</p>
                         </div>
-                        <div class="mt-3">
+                        <!-- <div class="mt-3">
                             <button class="button_main ms-md-5 ">MORE ABOUT US</button>
 
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
@@ -311,7 +309,7 @@
         </div>
     </div>
 
-    <div class="MEMBERSHIP pt-5">
+    <div class="MEMBERSHIP pt-5 " id="MEMBERSHIP">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-4 mt-5">
@@ -375,7 +373,7 @@
                                 <p class="mb-0 ms-3 text-white">
                                     1-month Free social media marketing</p>
                             </div>
-                            <button class="button_main w-100 mt-5">REGISTER NOW</button>
+                            <a href="#contact"><button class="button_main w-100 mt-5">REGISTER NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -406,7 +404,7 @@
                                 <p class="mb-0 ms-3 text-white">14 Days! Free social media marketing</p>
                             </div>
 
-                            <button class="button_main w-100 mt-5">REGISTER NOW</button>
+                            <a href="#contact"><button  class="button_main w-100 mt-5" >REGISTER NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -640,6 +638,35 @@
                     </div>
                 </div>
             </div> -->
+
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="d-flex w-100 align-items-center justify-content-center mt-3 mb-5">
+                    <h5 CLASS="text-white">CONTACT US</h5>
+                    <h4 class="aboutUS"></h4>
+
+                </div>
+                <form action="/action_page.php">
+                  <label class="text-white" for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name">
+              
+                  <label for="lname">Email</label>
+                  <input type="email" id="lname" name="lastname" placeholder="Your Email">
+
+                  <label for="country">Membership</label>
+                  <select id="country" name="country">
+                    <option value="australia">$300/Month</option>
+                    <option value="australia">$200/Month</option>
+                    
+                  </select>
+                    
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input class="button_main" type="submit" value="Submit">
+                </form>
+              </div>
+        </div>
 
         <div class="footer">
             <div class="container">

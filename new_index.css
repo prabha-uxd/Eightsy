@@ -131,7 +131,7 @@ p {
 }
 .Pricing h2 {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: 40px;
     font-size: 56px;
     color: #2c2c2c;
@@ -155,7 +155,7 @@ p {
 }
 .Competitions h2 {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: 40px;
     font-size: 56px;
     color: #2c2c2c;
@@ -371,6 +371,32 @@ p {
     justify-content: end;
     flex-basis: auto;
 } */
+label{
+    color: #fff;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ 
+
+  
 
 
 @media (max-width:600px){
