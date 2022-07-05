@@ -220,6 +220,7 @@ p {
 }
 .COURSES_1 section {
     position: absolute;
+    padding-right: 30px;
     bottom: 30px;
     left: 30px;
 }
