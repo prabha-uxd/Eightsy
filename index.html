@@ -47,9 +47,9 @@
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                             <a class="nav-link" href="#abour_us">ABOUT US</a>
                             <a class="nav-link" href="#MEMBERSHIP">MEMBERSHIP</a>
-                            
+
                         </div>
-                       
+
                         <a class="nav-link " href="#contact">
                             <button class="button_main"><i class="fa-solid fa-phone me-2"></i>CONTACT US</button>
                         </a>
@@ -208,10 +208,11 @@
                         <!-- <h5 class="mt-4 color-main">COURSES</h5> -->
                         <h2 class="fw-bold text-white cap">Booking system</h2>
                         <p>A customer can book a Table directly through a website using an online booking system. That
-                            is, from the moment a customer decides they want to book a table from your Snooker Club (whether an
+                            is, from the moment a customer decides they want to book a table from your Snooker Club
+                            (whether an
                             in-person or an online booking) to selecting a date, and selecting a time, everything is
                             handled online!</p>
-                            <br>
+                        <br>
 
                         <!-- <button class="button_main border-0 mt-2">READ MORE</button> -->
 
@@ -290,7 +291,7 @@
                 </div>
                 <div class="box text-center mt-4">
                     <i class="fa-solid fa-ranking-star"></i>
-                    <h4 class="text-white mt-3">Branding Customization  </h4>
+                    <h4 class="text-white mt-3">Branding Customization </h4>
                 </div>
                 <div class="box text-center mt-4">
                     <i class="fa-solid fa-photo-film"></i>
@@ -409,7 +410,7 @@
                                 <p class="mb-0 ms-3 text-white">14 Days! Free social media marketing</p>
                             </div>
 
-                            <a href="#contact"><button  class="button_main w-100 mt-5" >REGISTER NOW</button></a>
+                            <a href="#contact"><button class="button_main w-100 mt-5">REGISTER NOW</button></a>
                         </div>
                     </div>
                 </div>
@@ -651,26 +652,29 @@
                     <h4 class="aboutUS"></h4>
 
                 </div>
-                <form action="/action_page.php">
-                  <label class="text-white" for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name">
-              
-                  <label for="lname">Email</label>
-                  <input type="email" id="lname" name="lastname" placeholder="Your Email">
+                <form action="/action_page.php" class="contact_form">
+                    <label class="text-white" for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" class="name" placeholder="Your name">
 
-                  <label for="country">Membership</label>
-                  <select id="country" name="country">
-                    <option value="australia">$300/Month</option>
-                    <option value="australia">$200/Month</option>
-                    
-                  </select>
-                    
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-                  <input class="button_main" type="submit" value="Submit">
+                    <label for="lname">Email</label>
+                    <input type="email" id="lname" name="lastname" class="email" placeholder="Your Email">
+
+                    <label for="country">Membership</label>
+                    <select id="mamber" name="mamber" class="mamber">
+                        <option value="australia">$300/Month</option>
+                        <option value="australia">$200/Month</option>
+
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" class="msg" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input class="button_main" type="submit" value="Submit">
                 </form>
-              </div>
+            </div>
+
+           
         </div>
 
         <div class="footer">
@@ -690,22 +694,46 @@
                         <p class="text-white">Lorem ipsum</p> -->
                     </div>
                     <div class="col-md-2  mt-md-0 mt-4">
-                        <a href="" ><p class="text-white">About Us</p></a>
-                        <a href="" ><p class="text-white">Membership</p></a>
-                        <a href="" ><p class="text-white">Testimonials</p></a>
-                        <a href="" ><p class="text-white">Blogs</p></a>
+                        <a href="">
+                            <p class="text-white">About Us</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Membership</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Testimonials</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Blogs</p>
+                        </a>
                     </div>
                     <div class="col-md-2 mt-md-0 mt-4">
-                        <a href="" ><p class="text-white">Terms of Service</p></a>
-                        <a href="" ><p class="text-white">Privacy Policy</p></a>
-                        <a href="" ><p class="text-white">Cancellation & Refund Policy</p></a>
-                        <a href="" ><p class="text-white">FAQs</p></a>
+                        <a href="">
+                            <p class="text-white">Terms of Service</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Privacy Policy</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Cancellation & Refund Policy</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">FAQs</p>
+                        </a>
                     </div>
                     <div class="col-md-2  mt-md-0 mt-4">
-                        <a href="" ><p class="text-white">Facebook</p></a>
-                        <a href="" ><p class="text-white">Twitter</p></a>
-                        <a href="" ><p class="text-white">Instagram</p></a>
-                        <a href="" ><p class="text-white">Linkedin</p></a>
+                        <a href="">
+                            <p class="text-white">Facebook</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Twitter</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Instagram</p>
+                        </a>
+                        <a href="">
+                            <p class="text-white">Linkedin</p>
+                        </a>
                     </div>
 
                 </div>
@@ -715,7 +743,34 @@
 
 
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        const form = document.querySelector('.contact_form')
 
+       function sendMsg(e){
+           e.preventDefault();
+           const name = document.querySelector('.name'),
+                 email = document.querySelector('.email'),
+                 mamber = document.querySelector('.mamber'),
+                 msg = document.querySelector('.msg')
+            console.log(msg.value,"email",email.value)
+
+            
+           Email.send({
+               SecureToken: "c25a89c7-6d5c-4bdf-a894-20feaece0680",
+               To: 'gagan@uxdlabtech.com',
+               From: email.value,
+               Subject: "This is the subject",
+               Body:  msg.value
+                       
+           }).then(
+               message => alert(message)
+           );
+       }
+
+       form.addEventListener('submit',sendMsg);
+
+   </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
