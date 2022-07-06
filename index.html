@@ -686,7 +686,7 @@
                     <h4 class="aboutUS"></h4>
 
                 </div>
-                <form action="/action_page" class="contact_form" method="get">
+                <form  class="contact_form" >
                     <label class="text-white" for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" class="name" placeholder="Your name">
 
@@ -695,8 +695,8 @@
 
                     <label for="country">Membership</label>
                     <select id="mamber" name="mamber" class="mamber">
-                        <option value="australia">$300/Month</option>
-                        <option value="australia">$200/Month</option>
+                        <option value="$300/Month">$300/Month</option>
+                        <option value="$200/Month">$200/Month</option>
 
                     </select>
 
@@ -704,7 +704,7 @@
                     <textarea id="subject" class="msg" name="subject" placeholder="Write something.."
                         style="height:200px"></textarea>
 
-                    <input class="button_main" type="submit" value="Submit">
+                    <input class="button_main"  type="submit" value="Submit">
                 </form>
             </div>
 
@@ -776,55 +776,8 @@
     </div>
 
 
-    <script>
-        const url = 'https://snookergame.herokuapp.com/mail';
-        const name = document.querySelector('.name')
-         const email = document.querySelector('.email'),
-            mamber = document.querySelector('.mamber'),
-            msg = document.querySelector('.msg'),
-            data={
-                name,
-                email,
-                // mamber,
-                msg
-            }
-        fetch(url, {
-            method: "POST",
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-        }).then(res => {
-            console.log("Request complete! response:", res);
-        });
-    </script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-    <!-- <script>
-            const form = document.querySelector('.contact_form')
-
-            function sendMsg(e) {
-                e.preventDefault();
-                const name = document.querySelector('.name'),
-                    email = document.querySelector('.email'),
-                    mamber = document.querySelector('.mamber'),
-                    msg = document.querySelector('.msg')
-                console.log(msg.value, "email", email.value)
-
-
-                Email.send({
-                    SecureToken: "c25a89c7-6d5c-4bdf-a894-20feaece0680",
-                    To: 'farhanuxdlab@gmail.com',
-                    From: email.value,
-                    // From: 'himanshumasant@uxdlabtech.com',
-                    Subject: "This is the subject",
-                    Body: msg.value
-
-                }).then(
-                    message => alert(message)
-                );
-            }
-
-            form.addEventListener('submit', sendMsg);
-
-        </script> -->
+    <script src="/index.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
