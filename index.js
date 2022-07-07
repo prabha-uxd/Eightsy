@@ -18,20 +18,13 @@ document.querySelector("form").addEventListener("submit", async function (event)
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
-                // 'Content-Type': 'application/x-www-form-urlencoded',
               },
             body: JSON.stringify(data)
         }).then(res => {
             console.log("Request complete! response:", res);
             alert('Email is Send')
         });
-    // var xhr = new XMLHttpRequest();
-    // xhr.open("POST", url, true);
-    // xhr.setRequestHeader('Content-Type', 'application/json');
-    // xhr.send(JSON.stringify({
-    //     value: data
-    // }));
-    // alert('Email is Send')                         
+                   
 });
 
 
